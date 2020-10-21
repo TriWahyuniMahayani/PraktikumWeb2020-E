@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--Tag <!DOCTYPE> digunakan untuk menentukkan tipe dokumen-->
+<html>
+
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	body{
+		padding: 50px;
+		width: auto;
+		height: 100%;
+		font-family: 'Times New Roman', Times, serif;
+		background-image: url("Images/Background.jpg");
+	}
+	.main{
+		width: 540px;
+		min-height: 460px;
+		padding: 10px;
+		margin: auto;
+		border-radius: 10px;
+		border: solid 1px #css;
+		box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+		background-color: blue;
+		
+
+	}
+	input[type=text], input[type=password], select, textarea{
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #css;
+		border-radius: 4px;
+		resize: vertical;
+	}
+
+	button {
+		width: 100%;
+		background-color: grey;
+	}
+</style>
+<!--Tag <style> digunakan untuk menyisipkan code style atau css ke dalam sebuah documen web (HTML)-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="styelsheet" type="text/css">
+	<title>PPBW2020-Pertemuan5-E</title>
+</head>
+<!--Tag <meta charset="UTF-8"> digunakan untuk memberi informasi terhadap browser dan search engine untuk melakukan pengkodean karakter sesuai ketentuan-->
+<!--Tag meta name=viewport digunakan untuk memberikan instruksi ke browser untuk mengatur dimensi dan skala web-->
+<!--width=device-width artinya layar web akan mengikuti layar lebar dari layar prangkat yang digunakan-->
+<!--initial-scale=1 artinya web akan diberikan skala (zoom) menjadi 1 (normal)-->
+<body>
+	<form> 
+	<!--Tag <form> digunakan untuk membuat sebuah form HTML untuk input pengguna-->
+		<div class="main">
+		<h1 align="Center">Form Registration</h1>
+		<hr>
+		<label for="nama">Nama :</label>
+			<input type="text" id="nama" name="Username" placeholder="Username">
+		<br>
+		<label for="Username">Username :</label>
+			<input type="text" id="Username" name="Username" placeholder="Username">
+		<br>
+		<label for="password">Password :</label>
+			<input type="password" id="password" name="password">
+		<br>
+		<label for="jeniskelamin">Jenis Kelamin :</label>
+			<input type="radio" id="Pria" name="gender" value="Pria">
+		<label for="Pria">Pria</label>
+			<input type="radio" id="Wanita" name="gender" value="Wanita">
+		<label for="Wanita">Wanita</label>
+		<br>
+		<label for="hobby">Hobby :</label>
+			<input type="checkbox" id="Coding" name="Coding">
+		<label for="Coding">Coding</label>
+			<input type="checkbox" id="Design" name="Design">
+		<label for="Design">Design</label>
+			<input type="checkbox" id="Reading" name="Reading">
+		<label for="Reading">Reading</label>
+		<br>
+		<label for="Negara">Negara :</label>
+		<select id="Negara" name="Negara">
+			<option value="Indonesia">Indonesia</option>
+			<option value="Malaysia">Malaysia</option>
+			<option value="Singapura">Singapura</option>
+			<option value="Thailand">Thailand</option>
+		</select>
+		<br>
+		<label for="Komentar">Komentar :</label>
+		<textarea name="message" rows="5" cols="20"></textarea>
+		<br>
+		<button type="button">Submit</button>
+		</div>
+		<!--Tag <input> digunakan untuk membuat sebuah kontrol input-->
+		<!--Tag <textarea> digunakan untuk membuat sebuah kontrol input multibaris (text area)-->
+		<!--Tag <select> digunakan untuk membuat sebuah daftar drop-down-->
+		<!--Tag <label> digunakan untuk membuat sebuah label untuk sebuah elemen <input>-->
+		<!--Tag <button> digunakan untuk membuat sebuah tombol yang dapat diklik-->
+		<!--Tag <div> biasanya digunakan untuk mengelompokkan elemen atau tag - tag agar menjadi suatu grup, tag ini juga sering digunakan untuk mendefinisikan id atau class dari css-->
+	</form>
+</body>
+</html>
