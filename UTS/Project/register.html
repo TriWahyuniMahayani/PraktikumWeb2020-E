@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+  </head>
+  <body>
+    <div class="card-content">
+      <header>
+        <div class="logo-nav">
+          <img class="logo" src="img/logo.png" alt="">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="btn-login-register">
+          <a class="btn-login" href="login.html">Login</a>
+          <a href="register.html"><button class="btn-register">Register</button></a>
+        </div>
+      </header>
+      <div class="container">
+        <fieldset>
+          <div class="row">
+            <div class="text-center">
+              <br>
+              <h1 class="register">Register</h1><br>
+            </div>
+            <form action="index.html" method="post" class="user">
+              <div class="login-container">
+                <input type="text" class="first-name" id="FirstName" placeholder=" First Name" required>
+                <input type="text" class="last-name" id="LastName" placeholder=" Last Name" required>
+                <br><br>
+                <input type="text" class="phone-number" id="UserName" placeholder=" Phone Number" required>
+                <input type="email" class="email" id="Email" placeholder=" Email" required>
+                <br><br>
+                <input type="password" class="password" id="Password" placeholder=" Password" required>
+                <input type="password" class="confirm-password" id="ConfirmPassword" placeholder=" Confirm Password" required>
+              </div>
+              <br><br>
+              <input type="submit" class="submit" value=" Create Account ">
+              <div class="text-center">
+                <p>Already have account? <a href="./login.php" class="login">Log in</a></p>
+              </div>
+            </form>
+          </div>
+        </fieldset>
+        <img class="gambar2" src="img/regis.png" align="right" height="363px">
+      </div>
+    
+    </div>
+  </body>
+</html>
