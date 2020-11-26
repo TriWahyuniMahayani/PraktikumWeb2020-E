@@ -1,0 +1,96 @@
+ <html>
+        <head>
+            <title>Program Untuk Menampilkan Nilai Akhir</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <style>
+                body{
+                    background-image: url(aurora.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                .black_box{
+                    height: 315px;
+                    width: 400px;
+                    background: rgba(88, 88, 88, 0.5);
+                    border: rgb(243, 237, 237) 1px solid;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%) translateY(-50%);
+                }
+                .on_box{
+                    font-family: 'Arial';
+                    font-size: 12px;
+                    color: white;
+                }
+                h2{
+                    font-family: 'Arial';
+                    color: white;
+                    text-shadow:5px 3px 3px black;
+                }
+                .form_login{
+                    width: 100%;
+                    padding: 4px;
+                    font-size: 11pt;
+                    margin-bottom: 2px;
+                    text-align: center;
+                }
+                
+                .tombol_login{
+                    background: blue;
+                    color: white;
+                    font-size: 11pt;
+                    width: 30%;
+                    border: none;
+                    border-radius: 3px;
+                    padding: 10px 20px;
+                }
+                footer{
+                    font-size: 12px;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: black;
+                    position: relative;
+                    top: 20px;
+                }
+            </style>
+        </head>
+
+        <body>
+            <center class="black_box">
+                <h2>Uji Kelulusan</h2>
+                <div class="on_box">
+                    <form id="triwahyuni" name="triwahyuni" method="post" action="proses.php">
+                        <table >
+                            <tr>
+                                <td>NIM</td>
+                                <td><input name="nim" class="form_login" type="text" id="nim" /></td>
+                            </tr>
+        
+                            <tr>
+                                <td>Nama Mahasiswa</td>
+                                <td><input name="nama" class="form_login" type="text" id="nama" /></td>
+                            </tr>
+        
+                            <tr>
+                                <td>Nilai Tugas</td>
+                                <td><input name="tugas" class="form_login" type="text" id="tugas" /></td>
+                            </tr>
+        
+                            <tr>
+                                <td>Nilai UTS</td>
+                                <td><input name="uts" class="form_login" type="text" id="uts" /></td>
+                            </tr>
+        
+                            <tr>
+                                <td>Nilai UAS</td>
+                                <td><input name="uas" class="form_login" type="text" id="uas" /></td>
+                            </tr>
+                        </table><br/>
+                        <input type="submit" class="tombol_login" name="Submit" value="Checkout" />
+                    </form>
+                    <footer>&copy; Copyright 2020 Tri Wahyuni Mahayani | Tugas PPBW2020-Pertemuan7-E</footer>
+                </div>
+            </center>
+        </body>
+    </html>
