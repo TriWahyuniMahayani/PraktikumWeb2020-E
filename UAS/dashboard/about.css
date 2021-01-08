@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+.logo {
+    height: 38px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+.btn-login-register a {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.btn-login {
+    text-decoration: none;
+}
+
+.btn-register {
+    color: #ffffff;
+    border: none;
+    background-color: rgba(91, 182, 210, 1);
+    padding: 6px 12px;
+    border-radius: 32px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-register:hover {
+    background-color: rgba(91, 182, 210, 0.8);
+}
+
+.content-home {
+    display: flex;
+    align-items: center;
+    height: calc(80%);
+    justify-content: space-around;
+}
+
+.home-ilustrasi {
+    height: 450px;
+}
+
+.text-home {
+    width: 40%;
+}
+
+.heading-home {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #5BB6D2;
+}
+
+.text-content {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.read{
+    color: #ffffff;
+    border: none;
+    background-color: rgba(91, 182, 210, 1);
+    padding: 6px 12px;
+    border-radius: 32px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease 0s;
+}
